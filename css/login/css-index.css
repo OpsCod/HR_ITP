@@ -4,13 +4,6 @@
 * Author: MoxDesign - http://www.moxdesign.com
 **/
 
-#loginform{
-    border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-            border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
 html, body {
 	width: 100%;
 	overflow-x: hidden;

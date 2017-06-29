@@ -16,6 +16,8 @@
         });
     });
 
+
+
 /* scrollspy */
 $('body').scrollspy({ target: '#navbar-scroll' })
 

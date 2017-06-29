@@ -1,4 +1,6 @@
-
+ a.li.ul.nav :hover {
+    font: #0d84b8
+  }
 
 #itp{
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 

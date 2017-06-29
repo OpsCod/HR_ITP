@@ -1,6 +1,7 @@
 /* smooth scroll */
     $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
+        
+        $('ul.nav').find('a').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
                 var target = $(this.hash);
@@ -8,7 +9,7 @@
                 if (target.length) {
                     $('html,body').animate({
                         scrollTop: target.offset().top
-                    }, 1000);
+                    }, 700);
                     return false;
                 }
             }
@@ -80,7 +81,6 @@ $(document).ready(function(){
 	
 });
 	
-/* parallax background image http://www.minimit.com/articles/lets-animate/parallax-backgrounds-with-centered-content	
 /* detect touch */
 if("ontouchstart" in window){
     document.documentElement.className = document.documentElement.className + " touch";
